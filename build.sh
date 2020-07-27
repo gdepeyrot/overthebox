@@ -25,7 +25,7 @@ OTB_REPO=${OTB_REPO:-http://$OTB_HOST:$OTB_PORT/$OTB_PATH}
 
 OTB_TARGET=${OTB_TARGET:-x86_64}
 OTB_CONFIG=${OTB_CONFIG:-net-full nice-bb usb-full legacy}
-OTB_PKGS=${OTB_PKGS:-vim-full netcat htop iputils-ping bmon bwm-ng screen mtr ss strace tcpdump-mini ethtool sysstat pciutils mini_snmpd dmesg}
+OTB_PKGS=${OTB_PKGS:-vim-full netcat htop iputils-ping bmon bwm-ng screen mtr ss strace tcpdump-mini ethtool sysstat pciutils libnetsnmp snmp-mibs snmp-utils snmpd arp-scan dmesg libpam libgnutls libopenldap libidn2 libssh2 liblzma python-setuptools}
 
 OTB_FEED_URL="${OTB_FEED_URL:-https://github.com/ovh/overthebox-feeds}"
 OTB_FEED_SRC="${OTB_FEED_SRC:-v0.6}"
