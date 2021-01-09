@@ -39,9 +39,9 @@ done
 
 OTB_FEED_BRANCH="openwrt-18.06@{2018-10-05 00:00:00}"
 
-_get_repo source https://github.com/ovh/overthebox-lede "otb-mptcp-18.10.05"
-_get_repo feeds/packages https://github.com/openwrt/packages "$OTB_FEED_BRANCH"
-_get_repo feeds/luci https://github.com/openwrt/luci "for-15.05"
+_get_repo source https://github.com/gdepeyrot/overthebox-lede "otb-mptcp-18.10.05"
+_get_repo feeds/packages https://github.com/gdepeyrot/packages "$OTB_FEED_BRANCH"
+_get_repo feeds/luci https://github.com/gdepeyrot/luci "for-15.05"
 _get_repo feeds/routing https://github.com/openwrt-routing/packages "$OTB_FEED_BRANCH"
 
 if [ -z "$OTB_FEED" ]; then
