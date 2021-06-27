@@ -25,7 +25,7 @@ OTB_REPO=${OTB_REPO:-http://$OTB_HOST:$OTB_PORT/$OTB_PATH}
 
 OTB_TARGET=${OTB_TARGET:-x86_64}
 OTB_CONFIG=${OTB_CONFIG:-net-full nice-bb usb-full legacy}
-OTB_PKGS=${OTB_PKGS:-vim-full netcat htop iputils-ping bmon bwm-ng screen mtr ss strace tcpdump-mini ethtool sysstat pciutils iperf uclibcxx libnetsnmp snmp-mibs snmp-utils snmpd arp-scan dmesg libpam libgnutls libopenldap libidn2 libssh2 liblzma python-setuptools}
+OTB_PKGS=${OTB_PKGS:-vim-full netcat htop iputils-ping bmon bwm-ng screen mtr ss strace tcpdump-mini ethtool sysstat pciutils iperf uclibcxx libnetsnmp snmp-mibs snmp-utils snmpd arp-scan dmesg libpam libgnutls libopenldap libidn2 libssh2 liblzma python-setuptools ssmtp}
 
 OTB_FEED_URL="${OTB_FEED_URL:-https://github.com/gdepeyrot/overthebox-feeds}"
 OTB_FEED_SRC="${OTB_FEED_SRC:-v0.6}"
@@ -37,7 +37,7 @@ for i in $OTB_TARGET $OTB_CONFIG; do
 	fi
 done
 
-OTB_FEED_BRANCH="openwrt-18.06@{2018-10-05 00:00:00}"
+OTB_FEED_BRANCH="openwrt-18.06"
 
 _get_repo source https://github.com/gdepeyrot/overthebox-lede "otb-mptcp-18.10.05"
 _get_repo feeds/packages https://github.com/gdepeyrot/packages "$OTB_FEED_BRANCH"
