@@ -52,5 +52,6 @@ python3
 snmpd
 snmptrapd
 snmp-utils
+snmp-mibs
 speedtest-netperf
 swconfig

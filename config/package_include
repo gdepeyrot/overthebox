@@ -25,7 +25,6 @@ luci-app-pbr
 luci-proto-modemmanager
 luci-proto-qmi
 luci-proto-wireguard
-mini_snmpd
 modemmanager
 mtr
 nano
