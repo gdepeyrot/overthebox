@@ -4,7 +4,7 @@
 	branch = otb-mptcp-24.10.0-rc7
 [submodule "feeds/packages"]
 	path = feeds/packages
-	url = https://github.com/openwrt/packages
+	url = https://github.com/gdepeyrot/packages
 	branch = openwrt-24.10
 [submodule "feeds/routing"]
 	path = feeds/routing
